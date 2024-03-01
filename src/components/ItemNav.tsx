@@ -9,7 +9,7 @@ const ItemNav: React.FC<Props> = ({ nombre, icon }) => {
   return <>
         <button className='items-center rounded-full flex flex-row gap-2 text-white p-3 hover:bg-blue-800 hover:bg-opacity-80'>
             {icon}
-            <span>
+            <span className='text-xs font-semibold'>
                 {nombre}
             </span>
         </button>
